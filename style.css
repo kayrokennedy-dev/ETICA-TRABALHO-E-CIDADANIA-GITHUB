@@ -51,7 +51,7 @@ body{
     margin: 0 auto;
     margin-top: 100%;
     padding: 100px;
-    gap: 100px;
+    gap: 0px;
 }
 .conversa img{
     width: 400px;
