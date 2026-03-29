@@ -35,4 +35,5 @@ body{
     height: 100%;
     color: azure;
     font-family: 'silkscreen';
+    z-index: -1;
 }
