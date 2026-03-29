@@ -43,8 +43,8 @@ body{
     font-family: 'silkscreen';
 }
 .conversa{
-    display: flex;
-    flex-wrap: wrap;
+    display: grid;
+    grid-template-columns: 2 1fr;
     max-width: 100%;
     background-color: rgba(41, 41, 92, 0.7);
     width: 100%;
@@ -53,8 +53,17 @@ body{
     padding: 100px;
     gap: 100px;
 }
-.bola-verde{
+.bola-verde1{
     display: flex;
+    grid-column: 1;
+    background-color: rgba(34, 139, 34, 0.4);
+    border-radius: 500px;
+    width: 400px;
+    height: 400px;
+}
+.bola-verde2{
+    display: flex;
+    grid-column: 2;
     background-color: rgba(34, 139, 34, 0.4);
     border-radius: 500px;
     width: 400px;
