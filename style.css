@@ -38,6 +38,7 @@ body{
     z-index: -1;
 }
 .conversa{
+    display: flex;
     background-color: rgba(41, 41, 92, 0.7);
     width: 100%;
     margin-top: 100%;
