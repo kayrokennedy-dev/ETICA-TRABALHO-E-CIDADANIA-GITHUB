@@ -25,7 +25,7 @@ body{
     opacity: 0.7;
 }
 .back-title{
-    position: relative;
+    position: fixed;
     top: 0;
     left: 0;
     background-color: rgba(80, 200, 120, 0.7);
