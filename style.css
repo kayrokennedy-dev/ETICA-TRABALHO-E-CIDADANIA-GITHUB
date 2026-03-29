@@ -58,6 +58,6 @@ body{
     height: 400px;
     margin: 0 auto;
 }
-.conversa > .balao{
+.conversa .balao{
     gap: 0px;
 }
