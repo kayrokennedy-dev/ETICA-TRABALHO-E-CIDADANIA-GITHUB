@@ -37,6 +37,12 @@ body{
     font-family: 'silkscreen';
     z-index: -1;
 }
+.titulo-principal{
+    text-align: center;
+    margin-top: 20%;
+    color: azure;
+    font-family: 'silkscreen';
+}
 .conversa{
     display: flex;
     background-color: rgba(41, 41, 92, 0.7);
