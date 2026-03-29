@@ -37,3 +37,9 @@ body{
     font-family: 'silkscreen';
     z-index: -1;
 }
+.conversa{
+    background-color: rgba(41, 41, 92, 0.7);
+    width: 100%;
+    margin-left: 100px;
+    margin-right: 100px;
+}
