@@ -94,7 +94,9 @@ body{
     margin: 0;
     max-width: 700px;
     max-height: 350px;
-    background-color: transparent;
+    background-color: rgba(116, 116, 212, 0.719);
+    border-radius: 500px;
+    animation: flutuar 2s ease-in-out infinite;
 }
 .dialogo2{
     display: flex;
@@ -102,9 +104,11 @@ body{
     margin: -20% 0% 0% 68%;
     max-width: 700px;
     max-height: 350px;
-    background-color: transparent;
+    background-color: rgba(86, 87, 39, 0.719);
+    border-radius: 500px;
+    animation: flutuar 3s ease-in-out infinite;
 }
-.balao, .balao2, .balao3, .balao4, .balao5, .balao6, .balao7, .balao8{
+.balao, .balao2{
     position: absolute;
 }
 .balao{
@@ -180,5 +184,5 @@ body{
     height: 60%;
     font-family: 'silkscreen';
     color: azure;
-    animation: flutuar 3s ease infinite;
+    animation: flutuar 3s ease-in-out infinite;
 }
