@@ -46,7 +46,7 @@ body{
     display: flex;
     flex-wrap: wrap;
     max-width: 80%;
-    background-color: rgba(41, 41, 92, 0.7);
+    background-color: transparent;
     width: 100%;
     margin: 0 auto;
     margin-top: 100%;
@@ -64,15 +64,15 @@ body{
     margin: 0;
     max-width: 700px;
     max-height: 350px;
-    background-color: rgba(0, 0, 0, 0.404);
+    background-color: transparent;
 }
 .dialogo2{
     display: flex;
     position: relative;
-    margin: -20% 0% 0% 60%;
+    margin: -20% 0% 0% 68%;
     max-width: 700px;
     max-height: 350px;
-    background-color: rgba(0, 0, 0, 0.404);
+    background-color: transparent;
 }
 .balao, .balao2, .balao3, .balao4, .balao5, .balao6, .balao7, .balao8{
     position: absolute;
@@ -82,9 +82,31 @@ body{
     bottom: 30%;
 }
 .balao2{
-    right: 60%;
+    right: 58%;
     bottom: 40%;
 }
+.dialogo p{
+    display: block;
+    width: 200px;
+    position: absolute;
+    top: -5%;
+    left: 65%;
+    font-family: 'silkscreen';
+    text-align: center;
+    font-size: 13px;
+}
+.dialogo2 p{
+    display: block;
+    width: 200px;
+    position: absolute;
+    top: -10%;
+    right: 80%;
+    z-index: 1;
+    font-family: 'silkscreen';
+    text-align: center;
+    font-size: 13px;
+}
+
 
 
 
